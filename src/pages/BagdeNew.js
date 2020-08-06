@@ -2,8 +2,9 @@ import React from 'react';
 
 import './styles/BadgeNew.css'
 import header from '../images/badge-header.svg'
+import Badge from '../components/Badge';
+import BadgeForm from '../components/BadgeForm';
 import Navbar from '../components/Navbar'
-import Badge from "../components/Badge";
 
 class BagdeNew extends React.Component
 {
@@ -16,9 +17,9 @@ class BagdeNew extends React.Component
                     <img className="img-fluid" src={header} alt="Logo"/>
                 </div>
 
-                <div className="">
+                <div className="container">
                     <div className="row">
-                        <div className="col">
+                        <div className="col-6">
                             <Badge
                                 firstName="Richard"
                                 lastName="Kaufman"
@@ -30,6 +31,9 @@ class BagdeNew extends React.Component
                     </div>
                 </div>
 
+                <div className="col-6">
+                    <BadgeForm />
+                </div>
             </div>
         )
     }
