@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 
 import './global.css'
-import BadgeNew from './pages/BagdeNew';
+import BadgeNew from './pages/BadgeNew';
 
 
 // const jsx = <h1>Hello, Platzi Badges</h1>;
