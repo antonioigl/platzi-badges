@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 import './global.css'
 import BadgeNew from './pages/BadgeNew';
+import Badges from './pages/Badges';
 
 
 // const jsx = <h1>Hello, Platzi Badges</h1>;
@@ -38,4 +39,4 @@ import BadgeNew from './pages/BadgeNew';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<BadgeNew />, container);
+ReactDOM.render(<Badges />, container);
